@@ -4,6 +4,8 @@
 s = "mi cadena"
 print(s.capitalize()) #Mi cadena
 
+print(len(s)) #longitud de la cadena
+
 # lower()
 # El método lower() convierte todos los caracteres alfabéticos en minúscula.
 
