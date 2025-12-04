@@ -65,3 +65,9 @@ print(s) #1 y 2 y 3
 
 s = "Python,Java,C"
 print(s.split(",")) #['Python', 'Java', 'C']
+
+# invertir una cadena
+texto = "Hola a todos"
+palabras = texto.split()
+for palabra in palabras:
+    print(palabra[::-1], end = ' ')
